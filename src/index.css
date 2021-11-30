@@ -5,9 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 10px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  width: 80%;
+  border: 1px silver solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 auto;
+}
+p {
+  margin-bottom: 10px;
+}
+input {
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
 }
